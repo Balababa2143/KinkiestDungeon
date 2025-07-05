@@ -269,6 +269,9 @@
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
         "lib": ["DOM", "ES2020"],
+        "declaration": true,
+        "declarationMap": true,
+        "composite": true,
     },
     "watchOptions": {
         "excludeDirectories": ["**/node_modules", "_build"],
